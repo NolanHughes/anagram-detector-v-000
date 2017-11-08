@@ -1,20 +1,33 @@
 # Your code goes here!
-class Anagram
-  attr_accessor :word
+# class Anagram
+#   attr_accessor :word
+# 
+#   def initialize(word)
+#     @word = word
+#   end
+# 
+#   def match(words)
+#     array = []
+# 
+#     words.each do |w|
+#       if name.split("").sort == w.split("").sort
+#         array << w
+#       end
+#     end
+#   end
+# 
+# end
 
-  def initialize(word)
-    @word = word
-  end
+def match(words)
+  array = []
 
-  def match(words)
-    array = []
-
-    words.each do |w|
-      
-      if name.split("").sort == w.split("").sort
-        array << w
-      end
+  words.each do |w|
+    if name.split("").sort == w.split("").sort
+      array << w
     end
   end
-
 end
+
+words = ["hello", "jessie"]
+name = "ssejie"
+
