@@ -22,7 +22,7 @@ require 'pry'
 
 def match(words)
   array = []
-
+  name = "ssejie"
   words.each do |w|
     if name.split("").sort == w.split("").sort
       array << w
@@ -31,6 +31,6 @@ def match(words)
 end
 
 words = ["hello", "jessie"]
-name = "ssejie"
+
 
 binding.pry
