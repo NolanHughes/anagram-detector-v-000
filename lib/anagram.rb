@@ -10,7 +10,7 @@ class Anagram
     words.each do |w|
       w.split("")
       if name.split("").sort == w
-         w
+        w
       end
     end
   end
