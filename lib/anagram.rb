@@ -28,6 +28,7 @@ def match(words)
       array << w
     end
   end
+  array
 end
 
 words = ["hello", "jessie"]
