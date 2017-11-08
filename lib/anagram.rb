@@ -8,7 +8,6 @@ class Anagram
 
   def match(words)
     array = []
-    name = "ssejie"
     words.each do |w|
       if name.split("").sort == w.split("").sort
         array << w
@@ -18,4 +17,3 @@ class Anagram
   end
 
 end
-
